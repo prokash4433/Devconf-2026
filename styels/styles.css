@@ -1,0 +1,87 @@
+/* Font style-Inter */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.inter{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+/* Font style-Arimo */
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap');
+
+.arimo{
+  font-family: "Arimo", sans-serif;
+  font-optical-sizing: auto;
+  }
+  /* global selector */
+  *{
+    margin: 0;
+  }
+    /* common padding */
+    .container{
+  margin: 24px 100px; 
+   max-width: 1200px;
+    
+    }
+
+  /* common-btn */
+  .btn{
+    background-color:#1D4ED8 ;
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    font-weight: bold;
+    font-size:12px ;
+    cursor: pointer;
+  }
+  /* dark-2 color */
+  .dark-2{
+    color: #575757;
+  }
+
+
+
+/* Navigation-bar */
+.devocnf{
+    font-weight: bold;
+    font-size: 16px;
+}
+ .mini-logo{
+    display: flex;
+    align-items: center;
+    gap:5px ;
+
+ }
+ .mini-logo img {
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    padding: 2px;
+    border-radius: 10px;
+ }
+
+ .items-btn{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+
+   
+   
+ }
+ .items ul{
+    display: flex;
+    list-style: none;
+    gap: 24px;
+   
+   
+ }
+ 
+ 
+ .items a {
+    text-decoration: none;
+    color:#575757;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 14px;
+
+ }
